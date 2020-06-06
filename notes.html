@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title> My Notes</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <style></style>
+        <script></script>
+        <meta   name="notes description" content="my Notes to learn html">
+    </head>
+
+    <body>
+        <h1>
+        My Notes
+        </h1>
+
+        <p>
+        web consists collection pages written in HTML  connectected togethers with links and other resouces like images and videos as well programms and services that interact with these resources
+        accessing is among web browsers and the contents is spread throw millions of computers
+        </p>
+        <p>
+        web is hyper text system which means that documents are connected throw hyper links which means reference
+        By the way, HTML stands for HyperText Markup Language
+        Hypertext is all about references and links!
+        </p>
+
+        <strong>
+        edit the content to reflect in the page.
+        </strong>
+
+        <P>
+        HTML consists of
+        Text
+        <em>markup:</em> text has special tags, tags has start and end and value (this is called element)
+        refrence
+        </p>
+
+
+        Spaces, tabs, and line breaks are called
+        <strong>whitespace</strong>.
+        <br> stands for break to start new line
+        <br> br is void tag because it has no contect, others like img
+        <br> <em>example</em>
+        <p>
+        Mary had a little toad<br>
+        Its skin as tough as shell<br>
+        And every file that toad would write<br>
+        It used HTML.<br>
+        </p>
+
+
+        <p>
+        Here is another pragraph! pragraphs has margin between them. format can be controlled by CSS. HTML just specify the elemnts for the web page.
+        </p>
+
+
+
+        <p>
+        Let's try other elemnts <mark>mark</mark> ans also <sup>sup</sup> and <sub>sub</sub>
+        </p>
+
+        <p>
+        HTML support nesting
+        bigger elemnts like pragraph contains smaller like emphaszie
+        but overlap can't happen meaning you start and close the tags first
+        </p>
+
+
+        <h1>heading</h1>
+        <p>
+        there are 6 headings from h1 to h6
+        </p>
+        <h2>smaller heading</h2>
+        <h6>h6 smallest</h6>
+
+        <p>
+        <strong>Exercise</strong>
+        </p>
+        <h1>My chemistry notes</h1>
+        <p>
+          <strong>Molecule name:</strong> <em>Sulfur hexafluoride</em>
+        </p>
+        <p>
+          <strong>Molecular formula:</strong> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+        Note: This gas has a much higher density than air. Basically the opposite of helium. <mark>Crazy!</mark>
+        </p>
+
+        <h2>block and inline elements</h2>
+        HTML has block elemetns and inline elements<br>
+        block example p,div,video,table,list,heading<br>
+        index examples br,em,strong,sub,sup,img,hyperlink a,span<br>
+        block make invisible box with h,w, margins to specify space between blocks, while inline not<br>
+
+        <h2>DIV block</h2>
+        The div is short for division,it to divide up the page into different sections.
+        p is only specific for text but div is more generic block has box around it with w,h,make
+        example
+        <div>
+          <p>Call me Ishmael.</p>
+          <p>Just don't call me late for dinner.</p>
+        </div>
+
+        <h2> tables</h2>
+        <p>
+         unordered list (ul) uses bullet points. The default display of an ordered list (ol) uses numbers.
+         Note: Pay attention to the fact that the closing tag is optional for li, but not optional for ol and ul.
+        <ul>
+            <li>Thing one
+            <ol>
+                <li>nest one
+                <li>nest two
+            </ol>
+            <li>Thing two
+            <li>Thing three
+        </ul>
+
+        <ol>
+            <li>Thing one</li>
+            <li>Thing two</li>
+        </ol>
+
+        <p>
+        nested list example
+        <ul>
+          <li>Mammals
+            <ol>
+             <li> Raccoons
+            <li>Gorillas
+              </ol>
+          <li>Reptiles
+                <ol>
+             <li> Iguanas
+            <li>Cobras
+              </ol>
+          <li>Birds
+                <ol>
+             <li> Ostriches
+            <li>Ravens
+              </ol>
+        </ul>
+
+        <h2>notes</h2>
+        <p>
+        p element does not require a closing tag. When the browser sees another paragraph (or a list, headline, or many other things ...) it will automatically close the p element.
+        The br tag is a void element, so it doesn't allow a closing tag.
+        p and li are the two elements you've seen with optional closing tags. And the browser knows there has to be a closing tag 
+        when it gets to the start tag of a new element that can't be inside of the last one.
+        For example, when it gets to the start of a new p element, it knows the previous p element must be closed.
+        with an element like strong, there's no way for the browser to know where you want the emphasis to stop!
+
+        <p style="color: blue;"> css is for controlling styles of HTML page. style is used to control appearance it's BLUE!.</p>
+
+
+        <h2>links</h2>
+        <p>
+        URL>>uniformed resouce location 
+        http,https,file://path (fully qualified URL.) which must be used in HTML pages
+        tag for link a stands for anchor like boat anchor
+        attribut  target="_blank" to ioen in new page
+        the opening tag has attribute, href (hyper refernce) attributes should has value 
+        example of attribuites discussed before style attribute
+        fully qualified url should be used with a link
+        <a href="https://www.google.com">
+        go to google My favourte website
+        </a>
+         <a href="google.com/">Not qualified shouldn't work</a>
+        </p>
+
+        <h2>img tag</h2>
+        <p>
+        img tag is linked and has no ending. It has two attributes src for image source link and alt for alternative text if the image doesn't apear. below examples for images using
+        <ul>
+        <li>image fully qualified path
+        <li> image relative file path
+        <li> link on image
+        </ul>
+
+        <img src="https://placekitten.com/g/200/200" alt="kitten">
+        <img src="landsaft.jpg" alt="landshaft">
+        <a href="https://google.com"><img src="./google.jpg" alt="Google!"></a>
+
+
+        <h2> simple design</h2>
+        <p>My favorite things:</p>
+        <ul>
+          <li><a href="https://placebear.com/150/150"  target="_blank">Bears</a>
+          <li><a href="https://placekitten.com/150/150"  target="_blank">Kittens</a>
+            
+            </ul>
+
+        <img src="https://placekitten.com/150/150" alt="kitten">
+        <img src="https://placebear.com/150/150" alt="bear">
+        
+        <h2> HTML DOC structure</h2>
+        HTML must has DOCTYPE to make the browser know that it is HTML page.<br>
+        legacy HTML is diveded into head for gneral document structure and body for actual content<br>
+        title tag is required in the head before any body<br>
+        you may add other things to the head like scripts style meta<br>
+        if you don't add head browser will add it from HTML 5 not required but still good practice and title should be not between body elments like pragraphs<br>
+
+        <h2> HTML validator</h2>
+        https://validator.w3.org/ this check syntax of html. you may made error and handeled by browser. w3 is responsible for making html standard.
+    </body>
+</html>
